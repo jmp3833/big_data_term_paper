@@ -1,30 +1,13 @@
 \begin{thebibliography}{1}
 
-\bibitem{bowman:reasoning}
-M.~Bowman, S.~K. Debray, and L.~L. Peterson.
-\newblock Reasoning about naming systems.
-\newblock {\em ACM Trans. Program. Lang. Syst.}, 15(5):795--825, November 1993.
+\bibitem{PMC:articles/PMC3278109}
+{\em Can Tweets Predict Citations? Metrics of Social Impact Based on Twitter
+  and Correlation with Traditional Metrics of Scientific Impact}, 2011:13.
 
-\bibitem{braams:babel}
-J.~Braams.
-\newblock Babel, a multilingual style-option system for use with latex's
-  standard document styles.
-\newblock {\em TUGboat}, 12(2):291--301, June 1991.
-
-\bibitem{clark:pct}
-M.~Clark.
-\newblock Post congress tristesse.
-\newblock In {\em TeX90 Conference Proceedings}, pages 84--89. TeX Users Group,
-  March 1991.
-
-\bibitem{herlihy:methodology}
-M.~Herlihy.
-\newblock A methodology for implementing highly concurrent data objects.
-\newblock {\em ACM Trans. Program. Lang. Syst.}, 15(5):745--770, November 1993.
-
-\bibitem{Latex-distro}
-{\LaTeX{} Project Team}.
-\newblock {Obtaining LaTeX}, Aug. 2009.
-\newblock \url{http://latex-project.org/ftp.html}. Accessed September 10, 2013.
+\bibitem{DBLP:conf/wsdm/2015}
+X.~Cheng, H.~Li, E.~Gabrilovich, and J.~Tang, editors.
+\newblock {\em Proceedings of the Eighth {ACM} International Conference on Web
+  Search and Data Mining, {WSDM} 2015, Shanghai, China, February 2-6, 2015}.
+  {ACM}, 2015.
 
 \end{thebibliography}
