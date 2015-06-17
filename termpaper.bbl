@@ -10,4 +10,19 @@ X.~Cheng, H.~Li, E.~Gabrilovich, and J.~Tang, editors.
   Search and Data Mining, {WSDM} 2015, Shanghai, China, February 2-6, 2015}.
   {ACM}, 2015.
 
+\bibitem{DBLP:conf/wsdm/FlatowNXVK15}
+D.~Flatow, M.~Naaman, K.~E. Xie, Y.~Volkovich, and Y.~Kanza.
+\newblock On the accuracy of hyper-local geotagging of social media content.
+\newblock In Cheng et~al. \cite{DBLP:conf/wsdm/2015}, pages 127--136.
+
+\bibitem{DBLP:conf/wsdm/LattanziS15}
+S.~Lattanzi and Y.~Singer.
+\newblock The power of random neighbors in social networks.
+\newblock In Cheng et~al. \cite{DBLP:conf/wsdm/2015}, pages 77--86.
+
+\bibitem{DBLP:conf/wsdm/RajadesinganZL15}
+A.~Rajadesingan, R.~Zafarani, and H.~Liu.
+\newblock Sarcasm detection on twitter: {A} behavioral modeling approach.
+\newblock In Cheng et~al. \cite{DBLP:conf/wsdm/2015}, pages 97--106.
+
 \end{thebibliography}
