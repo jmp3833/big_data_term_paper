@@ -1,8 +1,11 @@
 \begin{thebibliography}{1}
 
-\bibitem{PMC:articles/PMC3278109}
-{\em Can Tweets Predict Citations? Metrics of Social Impact Based on Twitter
-  and Correlation with Traditional Metrics of Scientific Impact}, 2011:13.
+\bibitem{GraphClustering}
+U.~Brandes, M.~Gaertler, and D.~Wagner.
+\newblock Experiments on graph clustering algorithms.
+\newblock In G.~Di~Battista and U.~Zwick, editors, {\em Algorithms - ESA 2003},
+  volume 2832 of {\em Lecture Notes in Computer Science}, pages 568--579.
+  Springer Berlin Heidelberg, 2003.
 
 \bibitem{DBLP:conf/wsdm/2015}
 X.~Cheng, H.~Li, E.~Gabrilovich, and J.~Tang, editors.
@@ -10,19 +13,27 @@ X.~Cheng, H.~Li, E.~Gabrilovich, and J.~Tang, editors.
   Search and Data Mining, {WSDM} 2015, Shanghai, China, February 2-6, 2015}.
   {ACM}, 2015.
 
-\bibitem{DBLP:conf/wsdm/FlatowNXVK15}
-D.~Flatow, M.~Naaman, K.~E. Xie, Y.~Volkovich, and Y.~Kanza.
-\newblock On the accuracy of hyper-local geotagging of social media content.
-\newblock In Cheng et~al. \cite{DBLP:conf/wsdm/2015}, pages 127--136.
+\bibitem{kdd03-cornell}
+D.~Kempe, J.~Kleinberg, and E.~Tardos.
+\newblock Maximizing the spread of influence through a social network.
 
 \bibitem{DBLP:conf/wsdm/LattanziS15}
 S.~Lattanzi and Y.~Singer.
 \newblock The power of random neighbors in social networks.
 \newblock In Cheng et~al. \cite{DBLP:conf/wsdm/2015}, pages 77--86.
 
-\bibitem{DBLP:conf/wsdm/RajadesinganZL15}
-A.~Rajadesingan, R.~Zafarani, and H.~Liu.
-\newblock Sarcasm detection on twitter: {A} behavioral modeling approach.
-\newblock In Cheng et~al. \cite{DBLP:conf/wsdm/2015}, pages 97--106.
+\bibitem{Liu:2015:INC:2684822.2685323}
+J.~Liu, C.~Aggarwal, and J.~Han.
+\newblock On integrating network and community discovery.
+\newblock In {\em Proceedings of the Eighth ACM International Conference on Web
+  Search and Data Mining}, WSDM '15, pages 117--126, New York, NY, USA, 2015.
+  ACM.
+
+\bibitem{Tang:2015:NLP:2684822.2685295}
+J.~Tang, S.~Chang, C.~Aggarwal, and H.~Liu.
+\newblock Negative link prediction in social media.
+\newblock In {\em Proceedings of the Eighth ACM International Conference on Web
+  Search and Data Mining}, WSDM '15, pages 87--96, New York, NY, USA, 2015.
+  ACM.
 
 \end{thebibliography}

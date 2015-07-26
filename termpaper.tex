@@ -8,66 +8,202 @@
 \usepackage{enumerate}
 \usepackage{balance}
 \permission{}
-\CopyrightYear{2015}
+
+\CopyrightYear{2013}
 %\crdata{0-00000-00-0/00/00}
 \begin{document}
-
-\title{The Impact and Discoveries of Data Mining in the Field of Social Media}
+\title{The Impact and Discoveries of Data Mining in the Field of
+Social Media}
 \numberofauthors{1}
 \author{
 \alignauthor
 Justin M. Peterson
 }
-\date{15 June 2015}
+\date{25 July 2015}
 \maketitle
 \begin{abstract}
-\end{abstract}
-
-\section{Overview}
-\label{overview}
-
-As more and more companies are leveraging use of big data within
+As more and more companies are leveraging the use of big data within
 enterprise software applications, social media sites have been high in the 
 ranks of contributing groups of data mining and analytics techniques. Some of the
 greatest advantages that the big data movement has provided have been through
-unanticipated coorelations between data sets that seemed to have no relation
+unanticipated correlations between data sets that seemed to have no relation
 to one another. The social media space has provided troves of publicly accessible 
-data that can generate links between seeminly uncommon metrics such as citation prediction
-of articles and a user's Twitter feed. \cite{PMC:articles/PMC3278109}
+data that can generate links between seemingly uncommon metrics such as citation prediction
+of articles and a user's Twitter feed. 
 
-The WSDM conference held in Shanghai China \cite{DBLP:conf/wsdm/2015}
+The WSDM conference held in Shanghai China
 covered many facets of social media and uncovered some uncommon 
 relationships between collections of data. While the sheer volume
 of data that is publicly available on these networks is cause for analysis, many enterprise
 companies are still having difficulty generating new insights from these data sets that
 will have a direct, positive impact on their organization. In the social networks session
-of the WSDM conference many researchers have presented strategies of data mining and analysis \cite{DBLP:conf/wsdm/RajadesinganZL15}
-\cite{DBLP:conf/wsdm/FlatowNXVK15} \cite{DBLP:conf/wsdm/LattanziS15}
+of the WSDM conference many researchers have presented strategies of data mining and analysis 
 that can help to improve the state of any product that uses social media to drive key business 
-decisions.
+decisions. 
 
-\textbf{All sources were cited in the overview as a test, but will be distributed through the
-article in future submissions.}
-\textbf{Submission V1}:
-Provide the roadmap for the remaining sections of the
-paper. For example, you can state that Section \ref{common
-  themes} presents common themes in the papers being
-surveyed and section \ref{discordant themes} presents
-themes where the papers disagree.  
+This paper describes the strategies and common themes between pieces of research that were presented
+in the social media section of the WSDM conference. In addition to evaluating these themes, content from additional
+resources is included in order to validate the claims made in each paper analyzed. While the analysis 
+performed by these researchers is solid and accredited, questions and challenges that have arisen from 
+evaluating their research are also included in this paper.
+\end{abstract}
 
 \section{Common Themes}
 \label{common themes}
+While the six papers presented in the social media section of WSDM \cite{DBLP:conf/wsdm/2015} may be working to achieve progress in
+different sectors of social data mining and analysis, each paper works to reap additional 
+benefits from already existing social media data. 
+
+From the perspective of product advertisement, marketing teams are chomping at the bit for real time
+information and insightful pieces of data to make key decisions. Several marketing teams already use
+social media data such as public profile info, and links between profiles in the form of friendships and 
+followers as cause for analysis. Through new research published at WSDM, it has been shown that there may be just as much
+to learn from the lack of a link between two profiles as there is to earn from established relationships
+in social media. 
+
+In work published by S. Lattanzi and Y. Singer\cite{DBLP:conf/wsdm/LattanziS15} the authors work to confirm the
+existence of the friendship paradox, where 'most' people have fewer friends than they do, on average. If this
+were to be proven true in the context of a social media graph, its existence could lead to the ability
+to tap into more heavy hitting profiles for product advertising and information distribution.
+There is an additional overview of some of the issues found during this analysis technique in the Non-overlapping Themes section of this paper. 
+
+Unfortunately while the friendship paradox seems to hold in test samples of social media graphs, this may
+only be because of the fact that the range of user's average number of relationships on social media
+produces a heavily tailed distribution. While the paper does not go in depth on why this distribution is heavily
+tailed, there are many obviously apparent factors. For example, it is common that many social media 
+users will follow their friends, as well as accounts that represent celebrities, large product brands, 
+or companies of interest. Accounts with a more broad range of followers can tend to dominate results 
+and be identified as 'key targets' to distribute information through social media. Another interesting
+perspective provided by this research suggests that the number of relationships associated with a user profile
+may not be the only effective way to decide how to disburse information through a group for maximum influence.
+This concept is covered in greater depth in a cited paper by D. Kempe, J. Kleinberg, and E. Tardos of Cornell university.
+\cite{kdd03-cornell}
+
+In addition, research performed by J. Liu, C. Aggarwal, and J. Han \cite{Liu:2015:INC:2684822.2685323} disregards individual relationships between profiles
+and instead works to discover sets of communities within a social network with limited access to resources. These
+discovered groups can be used to for classification of a set of social media users, and can help to discover 
+target audiences for information distribution. While the premise of the paper is to incorporate the act of
+community detection with the process of discovering entire chunks of a social network graph, the results of the 
+research go hand in hand with improving the ability to reach consumers. 
+
+The works also hold the common theme of predicting behavior of a user based on both their personal social
+media activity and their interactions with other user's on the site. There are some data points that may not
+be publicly available on all social media sites, but can be inferred to improve the understanding of a profile.
+
+Two examples of this principle include the ability to discover negative links or associations between user profiles 
+\cite{Tang:2015:NLP:2684822.2685295}
+and the use of sentiment analysis and past network use to detect the use of sarcasm in posts. A negative link
+can include concepts such as a down vote, a statement saying a resource is untrusted, or a blocked user
+depending on which social media graph is being described. While negative links and sarcasm are not the first
+strategies that come to mind when attempting to promote an idea or product, they can be used in order to 
+avoid mistakes and to provide more curated content to consumers. 
+
+Take a major flight provider for example. While the airline may work towards a comfortable and safe experience
+for every passenger, the passenger may have complaints about their trip. It may be common based on a 
+user's past history that they will convey this frustration through sarcasm which could be picked up by automated
+social media accounts and determined to be an positive comment through sentiment analysis. This can cause
+many PR issues within an organization. Using negative link prediction to discover a hostile relationship between
+a customer and this airline could also help to reduce such issues. Both of these strategies are covered in greater depth
+in the Non-overlapping Themes section of the paper.
 
 \section{Discordant Themes}
 \label{discordant themes}
+Each paper presented at the WSDM conference under the social media section tackled a unique challenge. 
+Progress was made in many different directions,
+improving researcher's abilities to mine and analyze social media data for valuable results. While there
+are no points in each paper that directly contradict one another, there are certain points where
+researcher's analysis strategies diverge.
+
+The main point where the papers move in different directions is in how they each value certain data
+points when making their analysis. Researchers have decided to either use only user profile information, 
+relationships between profiles, groups of profiles, or a combination of each to perform their analysis. 
+Some pieces of research such as the breakdown of sarcasm analysis on Twitter profiles combined a mix
+of sentiment analysis as well as a calculated index of how likely the user is to perform sarcasm. This content-centric
+strategy shares traits with analysis performed to detect negative links between profiles. Other research including community
+discovery and influence of random neighbors rely on data associated with a user profile rather 
+than the content that the user is producing.
+
+It is interesting to note that both content-centric approaches to social media data analysis that
+were covered in the conference produced self-named frameworks to help outline desired outcomes
+and analysis strategies. The NElP (Negative Link Prediction) framework takes in a collection
+of formed opinions calculated over several user interactions and profile posts. This information is
+then used to determine where negative associations between profiles may exist. In addition, a heavy 
+association is placed between negative comments produced by a user and a negative link between that 
+user and another profile that is the target of a negative comment. 
+
+The SCUBA (Sarcasm Classification Using Behavioral Modeling Approach) defined to detect
+the likelihood of a specific tweet being sarcastic also combines the content generated
+from multiple user posts. This analysis takes several factors into account, 
+including the number of swear words, appearance of emojis, and past tweets that have been
+determined to be of negative sentiment. The paper breaks down the analysis
+of sarcasm into multiple subgroups and expands on existing analysis techniques, opposed to using only lexical parsing to 
+improve accuracy when compared to other methods.
+
+Another split between the research segments was that some of the works attempted to provide
+results that were generic enough that they could be abstracted out to many community based graph
+problems, rather than just social media in general. The prime example of this comes from the work regarding
+network and community detection. Discovering a community of nodes with dense connections to one another and
+a small number of connected routes to other communities has proven to be useful when hunting for more information in
+structures such as DNA sequences and terrorist networks. The research can be described both as a graph clustering
+algorithm than a social media experiment. \cite{GraphClustering} 
 
 \section{Non-overlapping Themes}
 \label{non-overlapping themes}
+There are several concepts expressed in each topic covered in this WSDM section. This section aims
+to identify highlights that make each piece of research unique.
+
+\subsection{Community Discovery}
+\label{community discovery}
+
+The community detection research presented values the importance of discovery of communities within a graph as highly
+as the actual discovery of each node in the graph. While it seems that discovering a community structure would only be
+useful if the entirety of the graph has been discovered, sometimes this is not the case. 
+
+As an example, view this problem through the lens of Facebook. As stated in the community discovery research, the entire Facebook
+graph is not viewable at any given time. A profile can be marked as private, blocking off access to many pieces of 
+information such as the relationships between that profile and other nodes that have been marked as friends. This 
+can make it particularly tricky to discover more than a large chunk of the graph at any given time. Pair this with the sheer
+size of the Facebook user graph, and it would be near impossible to have an entire graph snapshot at any given time!
+
+Even with this principle, community discovery can tell a researcher many properties of a given graph. If a set of communities are discovered on a small subsection of a massive graph such as Facebook, the findings can be abstracted out to analyze other groups of
+nodes that have not yet been discovered. This can be useful in generalizing the interests of users who fall under the same
+community, and can also allow researchers to identify other communities with the same characteristics. Fields such as marketing 
+and security could benefit from these types of analysis.
+
+\subsection{Sarcasm Detection and Grouping}
+\label{sarcasm detection and grouping}
+
+\subsection{Negative Links and Positive Link Prediction}
+\label{negative links and positive link prediction}
+
+\subsection{Sample Set Choice for Random Social Network Neighbors}
+\label{sample set choice for random social network neighbors}
 
 \section{Final Remarks}
 \label{final remarks}
+Many key points have been discussed and evaluated in the social media section of the WSDM conference. 
+Some of these can even be used to make observations on more generic graph problems rather
+than just viewing the solutions from a purely social perspective. There is a vast amount of data
+that is already available about users that can be used to make business decisions, promote products,
+or generate and distribute ideas. The most common information that is available (public profile info, friendships, etc...)
+may not be the only pieces of information that can be used to make decisions. There is forward progress
+made by making inferences on freely available data, or by using public sample subsets that are
+available at a lower computational cost. Techniques such as negative link and sarcasm detection take a great deal
+of analysis on past user interactions and posted content, but they avoid costly PR disasters and false
+identifications in several fields.
 
-\subsection{Tables, Figures, and Citations/References}
+In addition, some techniques are disregarding content centric pieces of data all together and evaluating
+the relationships between social media graph nodes. These edges (or lack thereof) can be used to reveal
+common communities of people in pieces of a network that are not completely public with a small sample
+set. Random neighbors to a node in a social media graph can be identified as beneficial to the distribution
+of information, even if the neighbor is not connected to the user within the graph. 
+
+While there is a great deal of progress, it will still be some time until these strategies can be 
+thoroughly tested and implemented in commercial products. Each strategy has been tested and 
+verified on subsets of social network data or home grown data sets as a proof of concept, but
+the real world performance of these techniques is yet to be determined. The WSDM conference and
+all of its speakers and researchers should be proud of the achievements they have made as they will
+be used for future research and practical application. 
 
 \bibliographystyle{abbrv}
 \bibliography{termpaper}
